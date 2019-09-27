@@ -1,0 +1,23 @@
+			.col-center{
+				float:none;
+				display: block;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			.text-center{
+				margin-left:0px;
+				margin-right:0px;
+			}
+			span{
+				font-size:25px;
+			}
+			#year{
+
+				color:#F00
+			}
+			#month{
+				color:#F00
+			}
+			#time{
+				color:#F00
+			}

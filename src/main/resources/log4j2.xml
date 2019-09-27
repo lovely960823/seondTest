@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+  	<!-- 这儿配置对应包的日志级别 -->
+    <Logger name="org.apache.ibatis" level="trace"/>
+    <!-- 这个配置默认日志级别 :例如你指定warn,那么它输出warn,error和fatal级别的日志
+         trace,
+         debug,
+         info,
+         warn,
+         error,
+         fatal
+         等级按照此列表，由上至下，日志级别越高，可查日志由多至少
+      -->
+     <!-- 这里配置默认的日志级别，默认日志级别限制包的日志级别 -->
+    <Root level="info">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>

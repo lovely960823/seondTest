@@ -1,0 +1,52 @@
+<style>
+body {
+	background: #fff;
+	background-image: url("resources/img/02.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+main {
+	width: 700px;
+	height: 600px;
+	margin: 100px auto;
+}
+
+
+main form {
+	width: 70%;
+	height: 500px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+
+input {
+	width: 438px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: solid 1px #aaa;
+	padding: 0 20px;
+	line-height: 50px;
+}
+
+#yz {
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: solid 1px #aaa;
+	padding: 0 20px;
+	line-height: 50px;
+}
+
+.login {
+	width: 480px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: solid 1px #aaa;
+	padding: 0 20px;
+	line-height: 50px;
+}
+</style>
